@@ -1,0 +1,3 @@
+court
+un_mot_un_peu_plus_long
+un_mot_encore_plus_long_qui_devrait_provoquer_une_erreur

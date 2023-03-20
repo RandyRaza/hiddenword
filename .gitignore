@@ -10,6 +10,8 @@
 .ionide
 a.out
 a.out.dSYM
-.canvascii.c.swo
+.mot_cache.c.swo
 a.out
-canvascii
+mot_cache
+Unittests
+

@@ -1,6 +1,5 @@
 #include "mot_cache.h"
 
-
 int lire_fichier(char *nom_fichier, char grille[TAILLE_GRILLE_MAX][TAILLE_GRILLE_MAX], char mots[TAILLE_MOT_MAX][TAILLE_MOT_MAX])
 {
     FILE *fichier = fopen(nom_fichier, "r");
@@ -159,11 +158,12 @@ void chercher_mots(char grille[TAILLE_GRILLE_MAX][TAILLE_GRILLE_MAX], char words
     printf("Mot caché : %s\n", lettres_non_utilisees);
 }
 
-void verifier_arguments(int argc) {
+int verifier_arguments(int argc) {
     if (argc != 2) {
         fprintf(stderr, "Erreur : Le programme doit recevoir un et un seul argument.\n");
         exit(1);
     }
+    return argc;
 }
 
 int main(int argc, char *argv[]) {

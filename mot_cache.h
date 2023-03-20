@@ -45,6 +45,6 @@ void construire_mot_cache(char grille[TAILLE_GRILLE_MAX][TAILLE_GRILLE_MAX], boo
  * S'il n'y a pas assez d'arguments, affiche un message d'erreur et quitte le programme.
  * @param argc Le nombre d'arguments passés en ligne de commande.
  */
-void verifier_arguments(int argc);
+int verifier_arguments(int argc);
 
 #endif /* MOT_CACHE_H */

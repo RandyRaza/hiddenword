@@ -1,6 +1,5 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -std=c11 -I/usr/local/Cellar/cunit/2.1-3/include
-LDFLAGS = -L/usr/local/Cellar/cunit/2.1-3/lib -lcunit
 
 mot_cache: mot_cache.c
 	$(CC) $(CFLAGS) mot_cache.c -o mot_cache $(LDFLAGS)

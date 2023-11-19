@@ -1,4 +1,4 @@
-# TP2: Programme qui résout le jeu "Mot caché"
+# Programme qui résout le jeu "Mot caché"
 
 ## Description
 
